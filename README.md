@@ -2,6 +2,10 @@
 
 An emotion classifier based on the Inside Out movies that analyzes text and predicts one of 7 main emotions: anger, disgust, fear, sadness, joy, surprise, and neutral.
 
+<p align="center">
+<img width="763" height="357" alt="image" src="https://github.com/user-attachments/assets/901228a0-b2d2-4fd4-8b7b-1c706129a76c" />
+</p>
+
 ## Description
 
 This project uses natural language processing (NLP) to classify text according to the main emotions from the Inside Out movie. The model is trained on Google Research's **GoEmotions** dataset, which contains Reddit texts annotated with 28 different emotions, mapped to the 7 Inside Out categories.
