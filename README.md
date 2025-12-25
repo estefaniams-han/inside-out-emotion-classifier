@@ -142,16 +142,6 @@ This project uses the [GoEmotions](https://github.com/google-research/google-res
 - Add more visualizations to the Streamlit app
 - Multi-language support
 
-## Contributing
-
-Contributions are welcome! Please:
-
-1. Fork the project
-2. Create a feature branch (`git checkout -b feature/new-feature`)
-3. Commit your changes (`git commit -m 'Add new feature'`)
-4. Push to the branch (`git push origin feature/new-feature`)
-5. Open a Pull Request
-
 ## License
 
 This project uses the GoEmotions dataset which is licensed under Apache License 2.0.
