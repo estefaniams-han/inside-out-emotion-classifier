@@ -16,11 +16,11 @@ This project was created as a personal learning initiative to deepen my understa
 
 ## Features
 
-- 🎭 Text classification into 7 Inside Out emotions
-- 📊 Displays probabilities for each emotion
-- 🚀 Interactive web application with Streamlit
-- 🤖 Machine learning model based on TF-IDF + Logistic Regression
-- 📈 Optimization with GridSearchCV for best results
+- Text classification into 7 Inside Out emotions
+- Displays probabilities for each emotion
+- Interactive web application with Streamlit
+- Machine learning model based on TF-IDF + Logistic Regression
+- Optimization with GridSearchCV for best results
 
 ## Project Structure
 
@@ -134,10 +134,10 @@ This project uses the [GoEmotions](https://github.com/google-research/google-res
 
 ### Planned Enhancements
 
-- ✅ Test word n-grams (1,2) with best parameters (min_df=5, max_df=0.9, sublinear_tf=True)
-- ✅ Experiment with character n-grams (3,5) as an alternative model
-- ✅ If disgust/fear remain weak → implement two-stage classification (neutral vs emotion first)
-- ✅ Explore advanced models: LinearSVC or BERT-based transformers
+- Test word n-grams (1,2) with best parameters (min_df=5, max_df=0.9, sublinear_tf=True)
+- Experiment with character n-grams (3,5) as an alternative model
+- If disgust/fear remain weak → implement two-stage classification (neutral vs emotion first)
+- Explore advanced models: LinearSVC or BERT-based transformers
 
 ### Additional Ideas
 
