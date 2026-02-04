@@ -1,5 +1,10 @@
 import joblib
 import streamlit as st
+from pathlib import Path
+
+# Get the project root directory
+ROOT_DIR = Path(__file__).parent.parent
+MODEL_PATH = ROOT_DIR / "models" / "emotion_lr_tfidf_best.joblib"
 
 LABELS_ORDER = ["anger", "disgust", "fear", "sadness", "joy", "surprise", "neutral"]
 EMOJI = {
@@ -16,7 +21,7 @@ st.set_page_config(page_title="Inside Out Emotion Classifier", page_icon="🎭")
 
 @st.cache_resource
 def load_model():
-    return joblib.load("models/emotion_lr_tfidf_best.joblib")
+    return joblib.load(MODEL_PATH)
 
 model = load_model()
 
