@@ -139,12 +139,6 @@ This project uses the [GoEmotions](https://github.com/google-research/google-res
 - If disgust/fear remain weak → implement two-stage classification (neutral vs emotion first)
 - Explore advanced models: LinearSVC or BERT-based transformers
 
-### Additional Ideas
-
-- Add support for batch text processing
-- Create API endpoint for easier integration
-- Add more visualizations to the Streamlit app
-- Multi-language support
 
 ## License
 
